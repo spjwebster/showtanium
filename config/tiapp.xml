@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:app xmlns:ti="http://ti.appcelerator.org" xmlns:appc="http://www.appcelerator.org">
+    
+	<id>com.dynamicflash.showtanium</id>
+	<name>showtanium</name>
+	<description>A Titanium-based GUI for pytvshows, based on AirShows</description>
+	<copyright>Copyright (c) Steve Webster</copyright>
+	<homepage>http://www.dynamicflash.com</homepage>
+	<updatesite>http://updatesite.titaniumapp.com</updatesite>
+	<version>0.1</version>
+	<debug>true</debug>
+
+	<window>
+		<id>initial</id>
+		<title>showtanium</title>
+		<url>app://index.html</url>
+		<width>400</width>
+		<min-width>400</min-width>
+		<max-width>400</max-width>
+		<height>500</height>
+		<min-height>500</min-height>
+		<max-height>500</max-height>
+		<maximizable>false</maximizable>
+		<minimizable>false</minimizable>
+		<closeable>true</closeable>
+		<resizable>false</resizable>
+		<chrome scroll="true">true</chrome>
+	</window>
+
+	<icon>
+		<image16>sample_app16.png</image16>
+		<image32>sample_app32.png</image32>
+		<image48>sample_app48.png</image48>
+	</icon>
+
+</ti:app>

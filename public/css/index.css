@@ -1,0 +1,65 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+    font-family: helvetica, verdana, arial, sans-serif;
+}
+
+#hd {
+    height: 40px;
+    position: relative;
+    background: #e0e0e0;
+}
+
+#hd #filter {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+#hd #refresh {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+
+#bd {
+    position: absolute;
+    top: 40px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow-y: auto;
+}
+
+#shows {
+    width: 100%;
+}
+
+#shows th,
+#shows td {
+    padding: 5px 10px;
+    text-align: left;
+}
+
+#shows thead {
+    background: #666;
+    color: #fff;
+}
+
+#shows tbody tr {
+    background: #efefef;
+}
+
+#shows tbody tr.even {
+    background: #e0e0e0;
+}
+
+#shows tbody tr:hover {
+    background: #9f9;
+}
+
+#shows tbody tr * {
+    padding: 0.2em 0.5em;
+}
